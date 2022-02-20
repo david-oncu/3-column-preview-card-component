@@ -64,7 +64,7 @@ body{
     margin: 2rem;
     border-radius: .7rem;
     overflow-X: hidden;
-    transition: transform 200ms ease-in-out;
+    transition: transform 300ms ease-in-out;
 }
 
 .card-container > 
@@ -152,7 +152,7 @@ h6 {
     justify-content: center;
     align-content: center;
     transform : scale(0.8);
-    transition: transform 200ms ease-in-out;
+    transition: transform 300ms ease-in-out;
 }
 
 .card-0{
