@@ -90,24 +90,40 @@ h6 {
 
 .card p{
     color: var(--clr-white);
-    line-height:;
+    line-height: inherit;
     padding-right: 3.5rem;
 }
 
-.card button{
-    color: var(--clr-white);
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--clr-gray);
     font-size: 1.1rem;
     font-family: var(--ff-primary);
+
     border-radius: 50px;
     border: 2px solid transparent;
     padding: 1rem 2rem;
-    margin-block: 2rem;
+    margin-block: 1.5rem;
     transition: all 150ms ease-in; 
 }
 
-.card button:hover{
+.card-button-0{
+    color: var(--clr-card-0);
+}
+
+.card-button-1{
+    color: var(--clr-card-1);
+}
+
+.card-button-2{
+    color: var(--clr-card-2);
+}
+
+.button:hover{
     background-color: var(--clr-tp);
-    color: var(--clr-white);
+    color: var(--clr-gray);
     border:2px solid var(--clr-white);
     transition: all 150ms ease-in; 
 }
@@ -117,26 +133,19 @@ h6 {
     border-radius: .7rem .7rem 0 0;
 }
 
-.card-0 button{
-    color: var(--clr-card-0);
-}
+
 
 .card-1{
     background-color: var(--clr-card-1);
 }
 
-.card-1 button{
-    color: var(--clr-card-1);
-}
+
 
 .card-2{
     background-color: var(--clr-card-2);
     border-radius: 0 0 .7rem .7rem;
 }
 
-.card-2 button{
-    color: var(--clr-card-2);
-}
 
 /*card-end*/
 
